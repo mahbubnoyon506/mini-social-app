@@ -1,0 +1,33 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# Native build folders (only present if you eject / prebuild)
+/android
+/ios
+
+# EAS
+.eas/
+
+google-services.json
+GoogleService-Info.plist
+*.apk
+*.aab
+
+
+README.md
+/src
+/assets
