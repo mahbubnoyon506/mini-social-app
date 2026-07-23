@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.minisocialfeed.app"
@@ -24,7 +26,9 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.minisocialfeed.app",
-      "permissions": ["NOTIFICATIONS"]
+      "permissions": [
+        "NOTIFICATIONS"
+      ]
     },
     "plugins": [
       [
@@ -38,7 +42,7 @@
     "extra": {
       "apiUrl": "http://localhost:5000/api",
       "eas": {
-        "projectId": "d43d17a1-75f3-4a88-9c21-6a20bdc5c6a7"
+        "projectId": "52485e66-677c-483c-be36-b8a842d01e8e"
       }
     }
   }

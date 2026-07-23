@@ -36,7 +36,6 @@ async function signup(req, res) {
 async function login(req, res) {
   try {
     const { email, password } = req.body;
-    console.log("creadentials", email, password);
 
     const user = await User.findOne({ email: email.toLowerCase() }).select('+password');
     if (!user) {

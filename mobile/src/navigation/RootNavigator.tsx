@@ -69,7 +69,6 @@ function AppNavigator() {
 
 export default function RootNavigator() {
   const { user, isLoading } = useAuth();
-  console.log("found user", user);
 
   if (isLoading) {
     return (
