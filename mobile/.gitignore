@@ -29,9 +29,5 @@ GoogleService-Info.plist
 
 
 README.md
-/src/components
-/src/screens/CreatePostScreen.tsx
-/src/screens/FeedScreen.tsx
-/src/screens/ProfileScreen.tsx
 /src/services
 /src/services
