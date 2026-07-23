@@ -29,5 +29,7 @@ GoogleService-Info.plist
 
 
 README.md
-/src
-/assets
+/src/components
+/src/screens
+/src/services
+/src/services
