@@ -4,8 +4,3 @@ serviceAccountKey.json
 npm-debug.log
 *.log
 .DS_Store
-
-
-
-src/utils
-src/config/firebase.js
