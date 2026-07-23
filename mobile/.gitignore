@@ -26,4 +26,5 @@ google-services.json
 GoogleService-Info.plist
 *.apk
 *.aab
+package-lock.json
 

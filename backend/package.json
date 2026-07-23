@@ -5,7 +5,10 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon --watch src --exec node src/server.js",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write .",
+    "build": "npm install"
   },
   "license": "MIT",
   "dependencies": {
